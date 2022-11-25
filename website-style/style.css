@@ -1,0 +1,19 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.listOfProperties {
+    color: gold;
+    background-color: rgb(5, 56, 56);
+    display: inline-block;
+}
+.listedItem{
+    color: blue;
+}
+
+div{
+    border: 1px solid black;
+    display: inline-block;
+
+}

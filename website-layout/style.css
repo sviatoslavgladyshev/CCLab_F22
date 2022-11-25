@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    background-color: cadetblue;
+}
+
+span{
+    border-color: blue;
+    border-width: 1 px;
+    border-style: dashed;
+}
+
+div{
+    border-color: darkmagenta;
+    border-width: 2 px;
+    width: 300px;
+    border-style: double;
+    padding: 40px;
+    margin: 20px;
+
+}
+
+.emptyDiv{
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+}
+.headlineWrapper{
+    margin-bottom: 200 px;
+}
