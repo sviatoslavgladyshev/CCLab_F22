@@ -32,7 +32,7 @@ let sliceNumb
 function setup() {
   let canvas = createCanvas(700, 600);
   canvas.parent("canvasContainer");
-  canvas.position(windowWidth/1.5, 0, 'sticky')
+  canvas.position(windowWidth/2.15, 0, 'sticky')
   controller = new Controller(85, 490, 90, 45);
   indicator = new Indicator(85, 100, 50, 50);
   // chrome = new Chrome(427-42, 300-32);
