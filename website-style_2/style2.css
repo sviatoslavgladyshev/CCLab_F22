@@ -1,0 +1,82 @@
+body{
+    /* background-image: url(assets/background.jpeg); */
+    /* background-image: url(assets/background_gray.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    */
+    /* background-video: ; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0,);
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+a {
+    color: white;
+    text-decoration:none;
+  }
+  a:visited, a:focus {
+    color: white;
+  }
+  a:hover{
+    color: rgb(229, 34, 40);
+    
+  }
+
+  .pageName{
+    font-size: 30px;
+    background-color: rgb(229, 34, 40);
+    display: inline-block;
+    padding: 0.5%;
+  }
+
+  .description{
+    background: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    font-size: 18px;
+    display: inline-block;
+    position: sticky;
+  }
+
+  .backButton{
+    /* margin-top: 1%; */
+    margin-bottom: 2%;
+    background-color: rgb(229, 34, 40);
+    width: 6%;
+    /* display: inline-block; */
+    padding: 0.2%;
+  }
+
+  

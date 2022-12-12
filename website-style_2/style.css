@@ -2,9 +2,11 @@ body{
     /* background-image: url(assets/background.jpeg); */
     background-image: url(assets/background_gray.jpg);
     background-repeat: no-repeat;
-    /* background-size: 100%; */
+    background-size: 100%;
+
     /* /* background-position: right; */
-    background-position: top right;
+    background-position: right;
+    background-position: 150px;
     background-color: rgb(0, 0, 0,);
     font-family: Arial, Helvetica, sans-serif;
     
@@ -29,7 +31,7 @@ p{
 } */
 
 .about{
-    margin-top: 3.9%;
+    margin-top: 10%;
     margin-left: 3.4%;
     color: black;
     font-size: 18px;
@@ -83,7 +85,7 @@ p{
 
 .mainTitle{
     color: rgb(255, 255, 255);
-    font-size: 80px;
+    font-size: 60px;
     display: inline-block;
     margin-left: 14%;
     background-color: rgb(229, 34, 40);
@@ -120,21 +122,28 @@ h1{
 .logo{
     margin-left: 2.25%;
     position: bottom left;
-    margin-top: 11%;
+    margin-top: 19%;
     width: 86px;
     height: 80px;
     float: left;
     display: inline-block;
+    position: fixed;
 }
 .moscowLogo{
     width: 10px;
 }
-.pork{
-    color: coral;
-    font-weight: bold;
-    background-color: bisque;
-}
+
 
 #listHeadline{
     background-color: black;
+}
+
+.second_logo{
+    margin-right: -0.5%;
+    position: bottom right;
+    margin-top: 11%;
+    border-left: white 0px solid;
+    height: 80px;
+    float: right;
+    display: inline-block;
 }
