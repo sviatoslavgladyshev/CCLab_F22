@@ -22,6 +22,17 @@ a:visited, a:focus {
   color: white;
 }
 a:hover{
-  color: rgb(229, 34, 40);
+  color: rgb(0, 0, 0);
   
+}
+
+.backButton{
+  /* margin-top: 1%; */
+  margin-bottom: 2%;
+  background-color: rgb(229, 34, 40);
+  width: 8%;
+  display: inline-block;
+  padding: 0.2%;
+  margin-left: 2%;
+  float: right;
 }

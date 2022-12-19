@@ -1,84 +1,82 @@
 body{
-    /* background-image: url(assets/background.jpeg); */
-     background-image: url(assets/imgonline-com-ua-Resize-DyfVHaXEOYOE.jpg);
-    background-repeat: no-repeat;
-    background-size: 80%
-    /* background-position: top right; */
+  /* background-image: url(assets/background.jpeg); */
+   background-image: url(assets/finalMSU.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%
+  background-position: top right;
 
-    /* background-video: ; */
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(15, 13, 33);
-    background-position: center;
+  /* background-video: ; */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(15, 13, 33);
+  background-position: center;
 }
 
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
 
-/* Add some content at the bottom of the video/page */
-.content {
-    position: fixed;
-    bottom: 0;
-    /* background: rgba(0, 0, 0, 0.5); */
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-}
 
-/* Style the button used to pause/play the video */
+
 #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
 }
 
 #myBtn:hover {
-    background: #ddd;
-    color: black;
+  background: #ddd;
+  color: black;
 }
 
 a {
-    color: white;
-    text-decoration:none;
-  }
-  a:visited, a:focus {
-    color: white;
-  }
-  a:hover{
-    color: rgb(229, 34, 40);
-    
-  }
-
-  .pageName{
-    font-size: 30px;
-    background-color: rgb(229, 34, 40);
-    display: inline-block;
-    padding: 0.5%;
-  }
-
-  .description{
-    background: rgba(0, 0, 0, 0.5);
-    width: 80%;
-    font-size: 18px;
-    display: inline-block;
-    position: sticky;
-  }
-
-  .backButton{
-    /* margin-top: 1%; */
-    margin-bottom: 2%;
-    background-color: rgb(229, 34, 40);
-    width: 6%;
-    /* display: inline-block; */
-    padding: 0.2%;
-  }
-
+  color: white;
+  text-decoration:none;
+}
+a:visited, a:focus {
+  color: white;
+}
+a:hover{
+  color: rgb(0, 0, 0);
   
+}
+
+.pageName{
+  font-size: 30px;
+  background-color: rgb(229, 34, 40);
+  display: inline-block;
+  padding: 0.5%;
+  margin-left: 2%;
+  margin-top: 28%;
+  color: #fff;
+}
+
+.description{
+  background: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+  position: sticky;
+  margin-left: 2%;
+}
+
+.backButton{
+  /* margin-top: 1%; */
+  margin-bottom: 2%;
+  background-color: rgb(229, 34, 40);
+  width: 6%;
+  /* display: inline-block; */
+  padding: 0.2%;
+  margin-left: 2%;
+}
+
+.backButton2{
+  /* margin-top: 1%; */
+  margin-bottom: 2%;
+  background-color: rgb(229, 34, 40);
+  width: 10%;
+  /* display: inline-block; */
+  padding: 0.2%;
+  margin-left: 2%;
+}

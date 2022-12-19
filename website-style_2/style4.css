@@ -37,7 +37,7 @@ a {
     color: white;
   }
   a:hover{
-    color: rgb(229, 34, 40);
+    color: rgb(0, 0, 0);
     
   }
 
@@ -46,14 +46,19 @@ a {
     background-color: rgb(229, 34, 40);
     display: inline-block;
     padding: 0.5%;
+    margin-left: 2%;
+    margin-top: 28%;
+    color: #fff;
   }
 
   .description{
     background: rgba(0, 0, 0, 0.5);
     width: 80%;
     font-size: 18px;
+    color: white;
     display: inline-block;
     position: sticky;
+    margin-left: 2%;
   }
 
   .backButton{
@@ -63,6 +68,16 @@ a {
     width: 6%;
     /* display: inline-block; */
     padding: 0.2%;
+    margin-left: 2%;
   }
 
+  .backButton2{
+    /* margin-top: 1%; */
+    margin-bottom: 2%;
+    background-color: rgb(229, 34, 40);
+    width: 11%;
+    /* display: inline-block; */
+    padding: 0.2%;
+    margin-left: 2%;
+  }
   
